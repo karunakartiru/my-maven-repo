@@ -93,7 +93,7 @@
 
   </plugins>
   </build>
-
+  <!-- Nexus deploy -->
   <distributionManagement>
         <repository>
             <id>maven-releases</id>
