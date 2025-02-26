@@ -1,4 +1,4 @@
-ho pipeline {
+pipeline {
     agent { dockerfile true }
 
    stages {
