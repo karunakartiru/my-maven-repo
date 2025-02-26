@@ -1,2 +1,2 @@
-FROM docker:latest
+FROM centos:latest
 RUN yum update
