@@ -1,2 +1,2 @@
-FROM ubuntu:latest
-RUN apt-get update
+FROM mcr.microsoft.com/windows
+RUN 'dir'
