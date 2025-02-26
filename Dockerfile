@@ -1,2 +1,2 @@
-FROM centos:latest
-RUN yum update
+FROM ubuntu:latest
+RUN apt-get update
