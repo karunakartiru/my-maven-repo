@@ -8,7 +8,7 @@ pipeline {
                 git 'https://github.com/karunakartiru/my-maven-repo.git'
 
                 // Run Maven on a Unix agent.
-                sh '/opt/apache-maven-3.8.8/bin/mvn clean deploy'
+                sh '/opt/apache-maven-3.8.8/bin/mvn clean compile'
 
                 // To run Maven on a Windows agent, use
                 // bat "mvn -Dmaven.test.failure.ignore=true clean package"
